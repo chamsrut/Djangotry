@@ -6,38 +6,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Unordered list:</h1>
-    <ul>
-        <li><img src="cat.jpg" width="50%"></li>
-        <li>item 2</li>
-        <li>item 3</li>
-    </ul>
-    <h1>Ordered list:</h1>
-    <ol>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-    </ol>
-    <h1>Table with presidents</h1>
-    <table>
-        <!--tr = table row, th = table headers, td = table data-->
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Years in office</th>
-        </tr>
-        <tr>
-            <td>George</td>
-            <td>Washington</td>
-            <td>1789-1797</td>
-        </tr>
-        <tr>
-            <td>John</td>
-            <td>Adams</td>
-            <td>1797-1801</td>
-        </tr>
-    </table>
-    <div>
+    <div id="top">
+        <span class="name">Unordered list:</span>
+        <ul>
+            <li><img src="cat.jpg" width="50%"></li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <span class="name">Ordered list:</span>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+    </div>
+    <div id="middle">
+        <h1>Table with presidents</h1>
+        <table>
+            <!--tr = table row, th = table headers, td = table data-->
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Years in office</th>
+            </tr>
+            <tr>
+                <td>George</td>
+                <td>Washington</td>
+                <td>1789-1797</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Adams</td>
+                <td>1797-1801</td>
+            </tr>
+        </table>
+    </div>
+    <div id="bottom">
         <p>Please enter your Full Name</p>
         <form>
             <input type="text" placeholder="Full Name" name="name">

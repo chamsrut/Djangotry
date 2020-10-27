@@ -7,12 +7,35 @@ p {
     color: #ff4500;
     text-align: left;
 }
-div {
-    border: 5px dotted red;
-}
+/*div {*/
+/*    border: 5px dotted red;*/
+/*}*/
 table {
     border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
 }
 th, td {
     border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+th {
+    background-color: lightgray;
+}
+/*IDs, these contrary to the classes must be unique*/
+#top {
+    font-size: 32px;
+}
+#middle {
+    font-size: 16px;
+}
+#bottom{
+    font-size: 8px;
+}
+
+/*class*/
+
+.name {
+    font-weight: bold;
 }
