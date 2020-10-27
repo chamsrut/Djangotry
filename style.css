@@ -1,0 +1,18 @@
+/*all h1 tags will be styled this way*/
+h1 {
+    color: #6495ed;
+    text-align: center;
+}
+p {
+    color: #ff4500;
+    text-align: left;
+}
+div {
+    border: 5px dotted red;
+}
+table {
+    border: 2px solid black;
+}
+th, td {
+    border: 1px solid black;
+}
