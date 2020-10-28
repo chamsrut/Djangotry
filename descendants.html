@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*all list items that are part of the ordered list*/
+        /*ol li {*/
+        /*    color: red;*/
+        /*}*/
+        /*all list items that are directly descendant of the ordered list*/
+        ol > li {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<ol>
+    <li>ordered item one</li>
+    <li>ordered item two</li>
+    <li>ordered item three</li>
+    <ul>
+        <li>unordered item 1</li>
+        <li>unordered item 2</li>
+    </ul>
+    <li>ordered item four</li>
+</ol>
+</body>
+</html>

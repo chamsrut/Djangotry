@@ -1,0 +1,11 @@
+$color: blue;
+div{
+  ul {
+    font-size: 18px;
+    color: $color;
+  }
+  ol {
+    font-size: 14px;
+    color: $color;
+  }
+}

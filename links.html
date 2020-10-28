@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        button {
+            background-color: lightgoldenrodyellow;
+        }
+        /*pseudo class selector*/
+        button:hover {
+            background-color: orange;
+        }
+        /*pseudo element selector*/
+        a::before {
+            content: "\21d2 Click here: ";
+            font-weight: bold;
+        }
+        /*responsive wrapping when the webpage size shrinks*/
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container > div {
+            background-color: orangered;
+            font-size: 16px;
+            margin: 20px;
+            padding: 20px;
+            width: 150px;
+        }
+    </style>
 </head>
 <body>
-    <a href="hello.html">click here to go to the hello page</a>
+<div class="container">
+    <div><button><a href="hello.html">hello page</a></button></div>
+    <div><button><a href="forms.html">forms page</a></button></div>
+    <div><button><a href="descendants.html">descendants page</a></button></div>
+    <div><button><a href="columns0.html">bootstrap columns page</a></button></div>
+</div>
 </body>
 </html>
